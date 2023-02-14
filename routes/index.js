@@ -3,7 +3,7 @@ var  router = express.Router()
 var  nodemailer = require("nodemailer");
 
 router.get("/", (req,res) =>{
-    res.render("../views/index.ejs", {titulo: "NODE MAILER"})
+    res.render("index.ejs", {titulo: "NODE MAILER"})
 })
 
 router.post("/", (req,res) =>{
@@ -30,6 +30,8 @@ router.post("/", (req,res) =>{
         console.log(info)
     }
     enviar_email().catch(console.error);
+
+    res.render("validacion.ejs", {titulo: "Validación Token"})
 })
 
 module.exports = router
