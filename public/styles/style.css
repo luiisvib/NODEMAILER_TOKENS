@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+body h1 {
+  margin-bottom: 30px;
+}
+body p {
+  margin-bottom: 20px;
+}
+body form {
+  padding: 20px;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 20px;
+}
+body form input {
+  margin-top: 10px;
+  font-size: 20px;
+  padding: 4px;
+  width: 250px;
+}
+body form button {
+  margin-top: 20px;
+  padding: 6px 12px;
+  font-size: 20px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
