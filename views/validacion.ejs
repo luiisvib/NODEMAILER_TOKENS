@@ -8,7 +8,11 @@
     <title><%= titulo  %></title>
 </head>
 <body>
-    <h2>Hola</h2>
+    <h1>Validación de clave</h1>
+    <form action="/validacion" method="POST">
+        <textarea name="token" placeholder="Escribe el token enviado por email" id="" cols="30" rows="10"></textarea>
+        <button type="submit">Validar</button>
+    </form>
 </body>
 </html>
 
