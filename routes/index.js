@@ -19,7 +19,7 @@ router.post("/", (req,res) =>{
             port: 587, //Puerto requerido para el envio de emails
             auth: {
                 user: process.env.correo, //Dirección de correo que enviará el email
-                pass: process.env.contrasena, //contraseña de aplicación de gmail
+                pass: process.env.contrasena, //Contraseña de aplicación de gmail
             },
         });
     
